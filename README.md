@@ -1,9 +1,7 @@
-# Educational Keylogger
+# Proyecto Keylogger 
 
-Este es un proyecto **estrictamente educativo** diseñado para comprender cómo funcionan los keyloggers y analizar el riesgo que representan en entornos informáticos inseguros. 
+Es un codigo malicioso que hara o creara un archivo con lo que haya escrito el usuario o persona que tenga el computador 
 
-> **⚠️ Advertencia de Seguridad y Ética:**
-> Esta herramienta ha sido desarrollada con un propósito de aprendizaje y concienciación en ciberseguridad. **No debe ser utilizada con intenciones maliciosas, no éticas o ilegales**. Úsela únicamente en un entorno controlado y en equipos sobre los que usted tenga propiedad o autorización explícita para realizar pruebas.
 
 ## Requisitos
 
@@ -29,27 +27,3 @@ Para iniciar el keylogger, debes abrir una terminal o consola de comandos **como
 python main.py
 ```
 
-### Ejemplo de Ejecución y Uso
-
-1. Al iniciar el programa, verás el siguiente mensaje en la consola:
-   ```text
-   ========================================
-      KEYLOGGER EDUCATIVO INICIADO
-   ========================================
-   Todas las pulsaciones se guardarán en: C:\Users\...\keylog.txt
-   Presiona la tecla 'ESC' en cualquier momento para detener.
-   ========================================
-
-   Escuchando eventos de teclado...
-   ```
-2. Mientras el programa se está ejecutando, minimiza la consola y escribe texto en un bloc de notas, en tu navegador o en cualquier otra aplicación. (Por ejemplo: escribe "Hola mundo" usando la tecla mayúscula para la H).
-3. Cuando desees detener la captura de teclas, presiona la tecla `ESC`. Verás el mensaje de finalización en la consola.
-4. Abre el archivo `keylog.txt` que se ha generado en la misma carpeta. El contenido registrado se verá similar a esto:
-   ```text
-   [shift]Hola mundo
-   [enter]
-   Prueba de [backspace][backspace]keylogger
-   ```
-
-## Análisis Educativo
-Una vez concluida la ejecución, revisa el archivo `keylog.txt`. Esto ilustra de manera práctica cómo información sensible (contraseñas, correos, conversaciones) puede ser fácilmente interceptada en un entorno donde un atacante ha logrado ejecutar software malicioso, demostrando la importancia de usar antivirus y no descargar software de fuentes no confiables.
