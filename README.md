@@ -1,5 +1,9 @@
-#Poryecto de Keyboard 
-Un codigo malicioso para saber que esta escribiendo el usuario
+# Educational Keylogger
+
+Este es un proyecto **estrictamente educativo** diseñado para comprender cómo funcionan los keyloggers y analizar el riesgo que representan en entornos informáticos inseguros. 
+
+> **⚠️ Advertencia de Seguridad y Ética:**
+> Esta herramienta ha sido desarrollada con un propósito de aprendizaje y concienciación en ciberseguridad. **No debe ser utilizada con intenciones maliciosas, no éticas o ilegales**. Úsela únicamente en un entorno controlado y en equipos sobre los que usted tenga propiedad o autorización explícita para realizar pruebas.
 
 ## Requisitos
 
